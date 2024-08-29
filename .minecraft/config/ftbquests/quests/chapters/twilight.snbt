@@ -1,0 +1,77 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight"
+	group: ""
+	id: "7201D16CB19ED307"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "24CA449258ACD466"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "5A03E20C67A0C88B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4B08891AF0C0B6E5"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "6BD4E66AAE23E899"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "428EF46E314F8873"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "687FF45AEA3734A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "034E46476C2F5AD5"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "6DB5D8241ADDEAE6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "0E7845E7BD1BA4D5"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "02B7EACBB9CD90C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "120FAA9B2E98DD63"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "3B8EF262C25ED6E2"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+	title: "twilight"
+}

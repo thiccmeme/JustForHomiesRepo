@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "midnight"
+	group: ""
+	id: "5ECBA8640DE054CD"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "1F0F1A2F8F24D4F7"
+		tasks: [{
+			dimension: "midnight:the_midnight"
+			id: "42E9CB1B6E009E4C"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "midnight"
+}

@@ -1,0 +1,6 @@
+
+[DeathButThree]
+	ValidBosses = ["cataclysm:ignis"]
+	#Range: > 1
+	maxDeathTimes = 3
+

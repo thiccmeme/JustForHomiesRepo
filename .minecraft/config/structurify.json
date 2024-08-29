@@ -1,0 +1,106 @@
+{
+  "general": {
+    "disabled_all_structures": false,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structures": [
+    {
+      "name": "apotheosis:tower_leaf",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "apotheosis:tower_main",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "apotheosis:tower_sand",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "apotheosis:tower_spruce",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "iceandfire:graveyard",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "iceandfire:mausoleum",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "idas:lumber_camp/lumber_camp_acacia",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "idas:lumber_camp/lumber_camp_birch",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "idas:lumber_camp/lumber_camp_bopmahogany",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "idas:lumber_camp/lumber_camp_bopredwood",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "idas:lumber_camp/lumber_camp_bygmahogany",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "idas:lumber_camp/lumber_camp_bygredwood",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "idas:lumber_camp/lumber_camp_dark_oak",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "idas:lumber_camp/lumber_camp_jungle",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "idas:lumber_camp/lumber_camp_oak",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "idas:lumber_camp/lumber_camp_spruce",
+      "is_disabled": true,
+      "biome_blacklist_type": "NONE",
+      "blacklisted_biomes": []
+    }
+  ],
+  "structure_sets": []
+}

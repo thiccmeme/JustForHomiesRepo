@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "caves"
+	group: ""
+	id: "020C25BC3E5681F8"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5F82A47406591888"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				id: "6989C8A717DC5D15"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "26C49E4DAC4155F2"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				id: "450BB94B091AD3C2"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "6D778C731A84517D"
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				id: "43B48ED02DFD6187"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "6B4FD984DAC83B6C"
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				id: "3FC62AB88DB033DB"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "018CCC22E2067AFD"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				id: "3D2A302456A2D396"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	title: "caves"
+}

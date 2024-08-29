@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: ""
+	id: "7478EC46C5263B1B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6BBC418E83AEABE6"
+			tasks: [{
+				entity: "lost_aether_content:aerwhale_king"
+				id: "4F0773FE34AF3DED"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "32EE57440DDFE4B2"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "3F688AA19748391A"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+	title: "aether"
+}

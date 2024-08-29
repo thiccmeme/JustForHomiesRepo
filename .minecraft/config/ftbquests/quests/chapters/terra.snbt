@@ -1,0 +1,56 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "terra"
+	group: ""
+	id: "1CBCCAB873BA08BB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "000F7AF8ED6760A5"
+			tasks: [{
+				entity: "terramity:gob"
+				id: "08EF6AD68E4E5F68"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3C82703735B8C2B7"
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				id: "732722B8BF5617FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "63F35996E4BCBAB5"
+			tasks: [{
+				entity: "terramity:enchanter_merlin"
+				id: "62A12F34C2BCAD09"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "3197B06C62824EE1"
+			tasks: [{
+				entity: "terramity:trial_guardian"
+				id: "2C48A57F17E82E2F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "Terra"
+}

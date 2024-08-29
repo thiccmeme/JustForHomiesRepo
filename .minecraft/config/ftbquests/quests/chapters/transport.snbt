@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "transport"
+	group: ""
+	id: "3CD2B8590B1DB252"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "468CE2B2F1514672"
+			tasks: [{
+				id: "541F6222D64837EB"
+				item: "automobility:auto_mechanic_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "1BF6CE5D72DE8EA5"
+			tasks: [{
+				id: "39DC00B1D69874A2"
+				item: "automobility:automobile_assembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "2104D63FDC7C45C1"
+			tasks: [{
+				id: "3CD1DB86ED02DB72"
+				item: {
+					Count: 1
+					id: "automobility:automobile_engine"
+					tag: {
+						engine: "automobility:stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "429A948FAA631244"
+			tasks: [{
+				id: "3EAF74A0E53F59BE"
+				item: "smallships:oak_brigg"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+	]
+	title: "transport"
+}

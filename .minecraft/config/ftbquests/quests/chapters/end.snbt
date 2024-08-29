@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: ""
+	id: "26A1ADD3C8FBD23B"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2571C9266B826A1C"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				id: "53D748679C9F3A15"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "15BAC9675130E640"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "608EEA8A6E4342B7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "0DA08CE141A114B5"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "4F83C8E5D909A764"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "6C024EF2F96D199E"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "14A63B50F3B52039"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "5796BF3F6CE3F271"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "07E95161EC83A6E4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "end"
+}
