@@ -1,0 +1,6 @@
+
+[Blacklist]
+	#xrite the registry name of the entities
+	banned = [""]
+	death_messages = []
+
