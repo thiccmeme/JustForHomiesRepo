@@ -1,0 +1,674 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_eyes"
+	group: "1909C8FCC204D4C0"
+	id: "7899C2A3B6ED461C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C5C87F0FA91F4D7"
+			rewards: [
+				{
+					id: "28DC5D4F36E57245"
+					item: {
+						Count: 1
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73F58576606C55C8"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "slay a serpent, a death worm, and a hydra"
+			tasks: [
+				{
+					id: "3345AD938744F3DD"
+					item: {
+						Count: 1
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					entity: "iceandfire:sea_serpent"
+					id: "6E77F2512FBC6266"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:hydra"
+					id: "6C6494412229380F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:deathworm"
+					id: "73777E8E8324F92B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7478EC46C5263B1B"]
+			id: "3279E910E5798631"
+			rewards: [
+				{
+					id: "1556BCE7AC0B2FA4"
+					item: {
+						Count: 1
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09985FB938F3EEE3"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "in the aether resides 2 bosses"
+			tasks: [{
+				id: "165C060E996D7334"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1835B3016B8A3331"
+			rewards: [
+				{
+					id: "14B9CEC41AB9E465"
+					item: {
+						Count: 1
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A88EAFE96AA4F33"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "slay a dragon of each creed and create steel with its blood"
+			tasks: [
+				{
+					id: "1963FD86C6AE012A"
+					item: {
+						Count: 1
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					entity: "iceandfire:fire_dragon"
+					id: "6C7A5940F0B7CA88"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:lightning_dragon"
+					id: "16476AE9B64E8098"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:ice_dragon"
+					id: "4DBCAC72854EF9E9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "495EE3E6768BAF20"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					id: "374061FD578983F2"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "0F0266CE29F72BC7"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61928EB1D3FDFDC5"]
+			id: "40B7F3CDEC502CAE"
+			rewards: [
+				{
+					id: "5F529AD3E060367A"
+					item: {
+						Count: 1
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06DA07BBD1DEF3B2"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "slay the evils of the overworld"
+			tasks: [{
+				id: "7DEFD496071CBD7F"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7478EC46C5263B1B"
+				"3037209C6CC6A000"
+				"61928EB1D3FDFDC5"
+				"5ECBA8640DE054CD"
+				"22B0A0CBC1D8033B"
+			]
+			id: "605111BA8C7D4FD1"
+			rewards: [
+				{
+					id: "3FEF59B8A183C5DF"
+					item: {
+						Count: 1
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "471781F5D3ACDBD5"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "explore all the lands, kill all of their leaders, until only the end remains"
+			tasks: [{
+				id: "3CCC400DF0356C24"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CBCCAB873BA08BB"]
+			id: "250DC13C7A571606"
+			rewards: [
+				{
+					id: "45CA36450E779A9D"
+					item: {
+						Count: 1
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EDF22B553508CED"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "slay the 3 overworld terra bosses"
+			tasks: [{
+				id: "7B43AAC59AB0F59B"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3037209C6CC6A000"]
+			id: "7085B7A7A05D0A2B"
+			rewards: [
+				{
+					id: "037F622B9EBE94A9"
+					item: {
+						Count: 1
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "458432D9257D941A"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "Kill the nether bosses"
+			tasks: [{
+				id: "403EE2C03E52F16A"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A1D18A5374D6F24"
+			rewards: [
+				{
+					id: "288AF404D079AC18"
+					item: {
+						Count: 1
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63362387B226BD26"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "obtain ultimate power"
+			tasks: [
+				{
+					id: "75F5075A92055EA2"
+					item: {
+						Count: 1
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4068B23D3B4FE383"
+					item: { Count: 4, id: "apotheosis:mythic_material" }
+					type: "item"
+				}
+				{
+					id: "3073A7D9B6966A6D"
+					item: "apotheosis:salvaging_table"
+					type: "item"
+				}
+				{
+					id: "58E85AE04F07AFAE"
+					item: "apotheosis:sigil_of_enhancement"
+					type: "item"
+				}
+				{
+					id: "5449C6D7A50DC059"
+					item: "apotheosis:sigil_of_rebirth"
+					type: "item"
+				}
+				{
+					id: "53D3F70958D242A9"
+					item: "apotheosis:reforging_table"
+					type: "item"
+				}
+				{
+					id: "4DEF4BD55C672424"
+					item: "apotheosis:augmenting_table"
+					type: "item"
+				}
+				{
+					id: "41A87B28E03182F7"
+					item: "apotheosis:gem_cutting_table"
+					type: "item"
+				}
+				{
+					id: "293C4C4F2F0014EE"
+					item: "apotheosis:simple_reforging_table"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "398394556BF0A097"
+			rewards: [
+				{
+					id: "21857378836E3AB4"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "303EB0F4D571DBE2"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "Obtain the highest grade of magic"
+			tasks: [
+				{
+					id: "3048DE17695F1D98"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75F7604284358884"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "irons_spellbooks:dead_king"
+					id: "384E90E26E173F5B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1405050CDC43C546"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:dragonmancers_oathbook"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["020C25BC3E5681F8"]
+			id: "28E7BC3EDED0436E"
+			rewards: [
+				{
+					id: "5E337569C80247AE"
+					item: {
+						Count: 1
+						id: "endrem:old_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32525B23C1E397D2"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "discover the all that the underground has to offer"
+			tasks: [{
+				id: "7EC94D9D60F6557A"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:corrupted_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03733AFF13AF820A"
+			rewards: [
+				{
+					id: "7EFD16191C1A563F"
+					item: {
+						Count: 1
+						id: "endrem:corrupted_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58145D66F7E1BBBD"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "What did it cost?..."
+			tasks: [
+				{
+					id: "4A253CEF815A7A06"
+					item: {
+						Count: 1
+						id: "endrem:corrupted_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1AD81E72693F0C26"
+					item: "balancedflight:flight_anchor"
+					type: "item"
+				}
+				{
+					id: "0D86C16CA7F69271"
+					item: "balancedflight:ascended_flight_ring"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "endrem:undead_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "163CA5534ACEAFB9"
+			rewards: [
+				{
+					id: "51CC8E17EC299FA5"
+					item: {
+						Count: 1
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CA02A380C635938"
+					table_id: 7942501555524002923L
+					type: "loot"
+				}
+			]
+			subtitle: "kill the black death, and the knight lich"
+			tasks: [
+				{
+					id: "269C5BC97CC19C6C"
+					item: {
+						Count: 1
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					entity: "rats:black_death"
+					id: "075E18796A092C50"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "0C7105C0483C8C3B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+	title: "The Eyes"
+}

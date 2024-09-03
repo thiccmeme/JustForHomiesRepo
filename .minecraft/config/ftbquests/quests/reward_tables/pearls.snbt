@@ -1,0 +1,11 @@
+{
+	id: "6E396F1564FEE46B"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 6, item: "apotheosis:mythic_material", weight: 0.5f }
+		{ count: 4, item: "apotheosis:mythic_material" }
+		{ count: 2, item: "apotheosis:mythic_material", weight: 2.0f }
+	]
+	title: "pearls"
+}

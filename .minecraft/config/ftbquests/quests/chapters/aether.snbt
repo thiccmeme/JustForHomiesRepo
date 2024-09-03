@@ -2,13 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aether"
-	group: ""
+	group: "000DB3BA7EC2870C"
 	id: "7478EC46C5263B1B"
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			id: "6BBC418E83AEABE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CCB39A58D93F00B"
+				table_id: 2766447210038176850L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "lost_aether_content:aerwhale_king"
 				id: "4F0773FE34AF3DED"
@@ -27,6 +33,23 @@
 			}]
 			x: 0.5d
 			y: -1.0d
+		}
+		{
+			id: "7CB83D69B5C40384"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36EDDC4F2DC1D2AE"
+				table_id: 2766447210038176850L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "7260F8F5BB96F86B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 1.0d
 		}
 	]
 	title: "aether"

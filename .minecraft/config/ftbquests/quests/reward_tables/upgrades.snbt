@@ -1,0 +1,11 @@
+{
+	id: "266465148C322C52"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 2, item: "apotheosis:mythic_material", weight: 0.5f }
+		{ count: 4, item: "apotheosis:epic_material" }
+		{ count: 6, item: "apotheosis:rare_material", weight: 2.0f }
+	]
+	title: "upgrades"
+}

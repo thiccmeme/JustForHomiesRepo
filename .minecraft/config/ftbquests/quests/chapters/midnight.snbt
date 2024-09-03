@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "midnight"
-	group: ""
+	group: "000DB3BA7EC2870C"
 	id: "5ECBA8640DE054CD"
 	order_index: 5
 	quest_links: [ ]

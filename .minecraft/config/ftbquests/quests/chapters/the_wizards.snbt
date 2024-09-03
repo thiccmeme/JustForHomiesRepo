@@ -1,0 +1,36 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_wizards"
+	group: "000DB3BA7EC2870C"
+	id: "2898358A3FD3D0B6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "16A72DFE061CED12"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "27B35F6D5ED5EDFB"
+			table_id: 7942501555524002923L
+			type: "loot"
+		}]
+		tasks: [
+			{
+				entity: "terramity:sorceress_circe"
+				id: "3057E3B855E49FB6"
+				type: "kill"
+				value: 1L
+			}
+			{
+				entity: "terramity:enchanter_merlin"
+				id: "53126619EDE6CF69"
+				type: "kill"
+				value: 1L
+			}
+		]
+		title: "kill the wizards"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "the wizards"
+}

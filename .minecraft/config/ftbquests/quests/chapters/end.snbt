@@ -2,13 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "end"
-	group: ""
+	group: "000DB3BA7EC2870C"
 	id: "26A1ADD3C8FBD23B"
-	order_index: 6
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			id: "2571C9266B826A1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "047105CA4D6E519C"
+				table_id: 7942501555524002923L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "alexsmobs:void_worm"
 				id: "53D748679C9F3A15"
@@ -20,6 +26,12 @@
 		}
 		{
 			id: "15BAC9675130E640"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32DDFA37F3A92291"
+				table_id: 7942501555524002923L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				id: "608EEA8A6E4342B7"
@@ -42,6 +54,12 @@
 		}
 		{
 			id: "6C024EF2F96D199E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E4D41C5653A9861"
+				table_id: 7942501555524002923L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "cataclysm:ender_golem"
 				id: "14A63B50F3B52039"
@@ -53,6 +71,12 @@
 		}
 		{
 			id: "5796BF3F6CE3F271"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BF6A0BDCE21C11A"
+				table_id: 7942501555524002923L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				id: "07E95161EC83A6E4"

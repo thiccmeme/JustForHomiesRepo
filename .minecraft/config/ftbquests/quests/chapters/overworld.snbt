@@ -2,13 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "overworld"
-	group: ""
+	group: "000DB3BA7EC2870C"
 	id: "61928EB1D3FDFDC5"
-	order_index: 3
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			id: "10FAD377AB2D8C57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C30974F821188EA"
+				table_id: 1897981825086196170L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				id: "4B17449FB42EAB5A"
@@ -20,6 +26,12 @@
 		}
 		{
 			id: "7E2BBD79D31D4140"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FDCCBBBD1F7615D"
+				table_id: 1897981825086196170L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
 				id: "398FF661121F079B"
@@ -31,6 +43,12 @@
 		}
 		{
 			id: "5015A5C8733E61F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CF0517039460ED4"
+				table_id: 1897981825086196170L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				id: "7F1BCCDBD40E34B7"
@@ -42,6 +60,12 @@
 		}
 		{
 			id: "64F8D75FAF28A05B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "380DF039B06FDD67"
+				table_id: 1897981825086196170L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				id: "68E24C1E34DF142F"
@@ -50,17 +74,6 @@
 			}]
 			x: 0.5d
 			y: -1.5d
-		}
-		{
-			id: "1F1D712F2262A973"
-			tasks: [{
-				entity: "iceandfire:lightning_dragon"
-				id: "620BD629FA53ADC8"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.5d
-			y: -2.5d
 		}
 	]
 	title: "overworld"

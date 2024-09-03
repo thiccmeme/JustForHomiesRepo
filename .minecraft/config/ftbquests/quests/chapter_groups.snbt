@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "1909C8FCC204D4C0", title: "The eyes" }
+		{ id: "000DB3BA7EC2870C", title: "backend" }
+	]
 }

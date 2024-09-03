@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ratlantis"
+	group: "000DB3BA7EC2870C"
+	id: "22B0A0CBC1D8033B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "77AFAC404D6A2E0F"
+			tasks: [{
+				dimension: "rats:ratlantis"
+				id: "5BA27BE7A2920A44"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "3EC4FBD6BA5FD040"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12DE778C5C1F02AD"
+				table_id: 2766447210038176850L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "rats:neo_ratlantean"
+				id: "03BB0395B623E89F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "50BA92AC7293CC90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CB56C55EF9F8D5F"
+				table_id: 2766447210038176850L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "rats:ratlantean_automaton"
+				id: "53E084FDE6BB7D11"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "57D93F653E98CE84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "234B1CD3A15AA112"
+				table_id: 1897981825086196170L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "rats:rat_baron"
+				id: "74EACF55E2FF5A3B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "5507DB10FF43D3D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76C0E434BC7E654A"
+				table_id: 1897981825086196170L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "rats:dutchrat"
+				id: "0CEE0E70A4FE4BB4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	title: "ratlantis"
+}

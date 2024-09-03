@@ -2,13 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nether"
-	group: ""
+	group: "000DB3BA7EC2870C"
 	id: "3037209C6CC6A000"
-	order_index: 2
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
 			id: "01E48F4B43CBBD2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A7A3665132D1FA4"
+				table_id: 1897981825086196170L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "cataclysm:ignis"
 				id: "62A045093ADF28B9"
@@ -20,6 +26,12 @@
 		}
 		{
 			id: "4298BEE3DC699EE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A9E6F0928B2FEB9"
+				table_id: 2766447210038176850L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				id: "32C80782BE7FFB85"
@@ -31,6 +43,12 @@
 		}
 		{
 			id: "36031735464AC930"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E2CE8AC2EBA1975"
+				table_id: 1897981825086196170L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				id: "454BA04BA9AA5CF6"
@@ -42,6 +60,12 @@
 		}
 		{
 			id: "05C69E93108963C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "013DF2DDCBBC83A6"
+				table_id: 1897981825086196170L
+				type: "loot"
+			}]
 			tasks: [{
 				entity: "minecraft:wither"
 				id: "5A66CDE12F54C4BC"
